@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+
+}
+
+.content {
+    padding: 5px;
+    background-color: lightblue;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.price-sec {
+    background-color: rgb(135, 172, 87);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.btnDiv {
+    text-align: center;
+    border-radius: 100%;
+}
+
+.product-item {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.card{
+    position: relative;
+}
+
+.hint {
+    position: absolute;
+    width: 110px;
+    padding: 0px 5px;
+    background-color: green;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    text-align: center;
+    text-shadow: 20px 20px 5px gray;
+}
+
+.divPrice {
+    background: gray !important;
+}

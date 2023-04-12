@@ -1,142 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Products Page</title>
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+  </head>
 
-</head>
-
-<body>
-
-
-
-
+  <body>
     <div class="title">
-        <h1>Our Products</h1>
-    </div><br>
-    <div class="alert alert-success container " role="alert">
-        Click to add Product to the Shopping Cart !
+      <h1>Our Products</h1>
+    </div>
+    <br />
+    <div class="overlay">
+        <p class="" id="counter"></p>
       </div>
+    <div class="alert alert-success container" role="alert">
+      Click to add Product to the Shopping Cart !
+    </div>
     <div class="container">
-        <div class="row">
-            <!-- product-1 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="200">
-                    <div class="hint">Price is 200 LE</div>
-                    <img src="./images/img-1.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Exercises Do List</h5>
-                    </div> <!-- card-body -->
-                </div>
-            </div><!-- card -->
-
-
-            <!-- product-2 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="180">
-                    <div class="hint">Price is 180 LE</div>
-                    <img src="./images/img-2.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Exercises Bag</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
+      <div class="row">
+        <!-- product-1 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="200">
+            <div class="hint">Price is 200 LE</div>
+            <img src="./images/img-1.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Exercises Do List</h5>
             </div>
+            <!-- card-body -->
+          </div>
+        </div>
+        <!-- card -->
 
-            <!-- product-3 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12  ">
-                <div class="card bg-light " price="500">
-                    <div class="hint">Price is 500 LE</div>
-                    <img src="./images/img-3.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Sports Hour</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
+        <!-- product-2 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="180">
+            <div class="hint">Price is 180 LE</div>
+            <img src="./images/img-2.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Exercises Bag</h5>
             </div>
-
-            <!-- product-4 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="260">
-                    <div class="hint">Price is 260 LE</div>
-                    <img src="./images/img-4.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Healthy Food</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
-            </div>
-
-            <!-- product-5 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="420">
-                    <div class="hint">Price is 420 LE</div>
-                    <img src="./images/img-5.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Controler Tool</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
-            </div>
-
-            <!-- product-6 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="150">
-                    <div class="hint">Price is 150 LE</div>
-                    <img src="./images/img-6.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">Numarical Mark</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
-            </div>
-
-            <!-- product-7 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="660">
-                    <div class="hint">Price is 660 LE</div>
-                    <img src="./images/img-7.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">GYM Dumbles</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
-            </div>
-
-            <!-- product-8 -->
-            <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12 ">
-                <div class="card bg-light " price="300">
-                    <div class="hint">Price is 300 LE</div>
-                    <img src="./images/img-8.jpg" class=".card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title text-dark">GYM Quiks</h5>
-                    </div> <!-- card-body -->
-                </div> <!-- card -->
-            </div>
-
-
-        </div> <!-- row -->
-
-        <div class="">
-            <h2 class="font-weight-bold text-muted">Shopping Cart</h2>
-            <div class="content"></div><br>
-            <div class="btnDiv align-center"><button class="btn btn-primary " id="showPrice">Show Price</button></div>
-            <br>
-            <h4 class="font-weight-bold text-muted">Price</h4>
-            <div class="price-sec"></div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
         </div>
 
-    </div> <!-- container -->
+        <!-- product-3 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="500">
+            <div class="hint">Price is 500 LE</div>
+            <img src="./images/img-3.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Sports Hour</h5>
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
 
-    <br><br>
-    <hr><br><br>
+        <!-- product-4 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="260">
+            <div class="hint">Price is 260 LE</div>
+            <img src="./images/img-4.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Healthy Food</h5>
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
 
+        <!-- product-5 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="420">
+            <div class="hint">Price is 420 LE</div>
+            <img src="./images/img-5.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Controler Tool</h5>
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
+
+        <!-- product-6 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="150">
+            <div class="hint">Price is 150 LE</div>
+            <img src="./images/img-6.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">Numarical Mark</h5>
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
+
+        <!-- product-7 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="660">
+            <div class="hint">Price is 660 LE</div>
+            <img src="./images/img-7.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">GYM Dumbles</h5>
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
+
+        <!-- product-8 -->
+        <div class="product-item col-xl-3 col-lg-4 col-md-6 col-12">
+          <div class="card bg-light" price="300">
+            <div class="hint">Price is 300 LE</div>
+            <img src="./images/img-8.jpg" class=".card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title text-dark">GYM Quiks</h5>
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
+      </div>
+      <!-- row -->
+
+      <div class="">
+        <h2 class="font-weight-bold text-muted">Shopping Cart</h2>
+        <div class="content"></div>
+        <br />
+        <div class="btnDiv align-center">
+          <button class="btn btn-primary" id="showPrice">Show Price</button>
+        </div>
+        <br />
+        <h4 class="font-weight-bold text-muted">Price</h4>
+        <div class="price-sec"></div>
+      </div>
+    </div>
+    <!-- container -->
+
+    <br /><br />
+    <hr />
+    <br /><br />
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/script.js"></script>
-</body>
-
-
+  </body>
 </html>
